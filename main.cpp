@@ -5,7 +5,7 @@ using namespace std;
 int createHist(int array[26]);
 
 int main() {
-    int array[26] ={3,0,0,1,5,0,1,0,2,0,0,1,0,0,0,3,0,2,3,2,0,0,0,0,0,0};
+    int array[26] ={300,0,0,1,5,0,1,0,2,0,0,1,0,0,0,3,0,2,3,2,0,0,0,0,0,300};
     cout << createHist(array);
     return 0;
 }
